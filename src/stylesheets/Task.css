@@ -1,0 +1,40 @@
+.container-task {
+    background-color: #1b1b32;
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 8px 15px 8px 20px;
+    margin: 5px 0;
+    display: flex;
+}
+
+.text-task {
+    font-size: 20px;
+    overflow-wrap: anywhere;
+    color: white;;
+}
+
+.icon-task {
+    width: 25px;
+    height: 25px;
+    /* margin: 5px; */
+    color: white;
+}
+
+/* Colors */
+.container-task:nth-child(3n + 1) {
+    background-color: #1b1b32;
+}
+
+.container-task:nth-child(3n + 2) {
+    background-color: #2a2a40;
+}
+
+.container-task:nth-child(3n + 3) {
+    background-color: #3b3b4f;
+}
+
+.container-task.completed {
+    background-color: #12c73a;
+    text-decoration: line-through;
+    color:white;
+}
